@@ -51,6 +51,27 @@ Snapshot data dari mentor ada di `data/snapshot/`; penjelasannya di `data/README
 - Server mengirim agregat, bukan seluruh baris CSV, ke browser.
 - Data harga hanya dibaca. Data pantauan disimpan lewat adapter penyimpanan dari mentor, karena array di server atau file JSON lokal tidak cukup untuk persistensi di Vercel.
 
+## Sandbox API dan adapter dari mentor
+
+**Sandbox API (latihan fetch, Sesi 6):** https://dasbor-pangan-sandbox.vercel.app. Isinya baca saja, dengan bentuk `GET /api/harga` yang sama seperti kontrak di atas. Daftar id komoditas dan provinsi ada di `GET /api/referensi`. Setelah backend kelompok jadi, ganti base URL ke API sendiri.
+
+**Adapter penyimpanan (Sesi 7–8):** `lib/adapter.js` dipakai untuk CRUD `/api/pantauan`. **Jangan diubah;** kalau ada masalah, laporkan ke mentor.
+
+```js
+import { createStore } from './lib/adapter.js';
+const pantauan = createStore('pantauan');
+await pantauan.list();            // semua data, urut waktu dibuat
+await pantauan.get(id);           // satu data atau null
+await pantauan.create(data);      // data + id, createdAt, updatedAt
+await pantauan.update(id, data);  // ganti isi field; null kalau id tidak ada
+await pantauan.remove(id);        // true / false
+```
+
+- Adapter hanya menyimpan objek. Validasi field, status HTTP (400/404/...), dan aturan kasus ditulis kelompok di route Express.
+- `id`, `createdAt`, dan `updatedAt` diatur adapter dan tidak boleh dikirim dari form. Satu data maksimal 10 KB.
+- Kredensial database sudah terpasang di project Vercel kelompok. Untuk lokal, salin `.env.example` ke `.env` dan isi nilainya dari mentor (atau `vercel env pull`). `.env` tidak boleh di-commit.
+- `ADAPTER_NAMESPACE` harus `kelompok-5`. Tanpa kredensial, adapter menolak jalan; `ADAPTER_DRIVER=memory` hanya untuk lokal dan ditolak di Vercel.
+
 ## Uji wajib
 
 - Kenaikan 10.000 → 12.000 = +20%.
