@@ -1,0 +1,8 @@
+{
+  "name": "dasbor-pangan-kelompok-5",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@upstash/redis": "^1.41.1"
+  }
+}
