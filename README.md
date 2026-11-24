@@ -32,6 +32,9 @@ WFP/HDX menyediakan data harga komoditas dan tabel pasar Indonesia. Berkasnya me
 - Perbandingan perubahan memakai pasar yang sama pada kedua bulan.
 - Acuan nol atau tidak tersedia menghasilkan "tidak dapat dihitung".
 - Tampilkan bulan terakhir data, metode, dan atribusi WFP/HDX.
+- Bulan terakhir berbeda antarseri; ambil dari `data/snapshot/referensi.json`, jangan dianggap Mei 2024. Bulan kosong bukan harga nol.
+
+Snapshot data dari mentor ada di `data/snapshot/`; penjelasannya di `data/README.md`. Snapshot itu juga memuat gula lokal dan minyak nabati karena dipakai bersama Jalur B; Jalur A cukup memakai `beras-medium`.
 
 ## Kontrak API
 
@@ -43,6 +46,8 @@ WFP/HDX menyediakan data harga komoditas dan tabel pasar Indonesia. Berkasnya me
 | PUT | `/api/pantauan/:id` | Ubah pantauan |
 | DELETE | `/api/pantauan/:id` | Hapus pantauan |
 
+- Format `periode`: `YYYY-MM:YYYY-MM` (dari:sampai, inklusif), misalnya `2023-01:2024-05`, atau satu bulan `YYYY-MM`. Kalau kosong, dipakai seluruh periode data.
+- Untuk latihan fetch Sesi 6, mentor menyediakan sandbox API dengan bentuk `GET /api/harga` yang sama.
 - Server mengirim agregat, bukan seluruh baris CSV, ke browser.
 - Data harga hanya dibaca. Data pantauan disimpan lewat adapter penyimpanan dari mentor, karena array di server atau file JSON lokal tidak cukup untuk persistensi di Vercel.
 

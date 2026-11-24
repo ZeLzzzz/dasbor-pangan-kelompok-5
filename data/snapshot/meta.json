@@ -1,0 +1,80 @@
+{
+  "judul": "Snapshot harga pangan — Dasbor Harga Pangan Daerah (SDG 2.c)",
+  "sumber": {
+    "nama": "WFP/HDX — Indonesia Food Prices",
+    "url": "https://data.humdata.org/dataset/wfp-food-prices-for-indonesia",
+    "lisensi": "CC BY-IGO",
+    "atribusi": "Data: World Food Programme (WFP), via Humanitarian Data Exchange (HDX). Lisensi CC BY-IGO.",
+    "tanggal_unduh": "2026-11-24",
+    "berkas": [
+      {
+        "nama": "wfp_food_prices_idn.csv",
+        "sha256": "38aa1d1915e8ac6357c2d2c02a4001f06c5fec1f6a2e2fa54d16f75525708bc3",
+        "baris": 347002
+      },
+      {
+        "nama": "wfp_markets_idn.csv",
+        "sha256": "62123a97dedbf609ba770e13b241ad394f2a03935e524aa436358aaf0d13df65",
+        "baris": 224
+      }
+    ]
+  },
+  "filter": {
+    "komoditas": [
+      {
+        "id": "beras-medium",
+        "label": "Beras (mutu medium)",
+        "label_sumber": "Rice (medium quality)"
+      },
+      {
+        "id": "gula-lokal",
+        "label": "Gula (lokal)",
+        "label_sumber": "Sugar (local)"
+      },
+      {
+        "id": "minyak-nabati",
+        "label": "Minyak nabati",
+        "label_sumber": "Oil (vegetable)"
+      }
+    ],
+    "pricetype": "Retail",
+    "currency": "IDR",
+    "unit": "KG",
+    "priceflag": "aggregate",
+    "monthFrom": "2020-01",
+    "monthTo": "2024-05",
+    "admin1": "wajib terisi",
+    "dikeluarkan": [
+      "National Average",
+      "seri actual",
+      "mutu/varian komoditas lain"
+    ]
+  },
+  "grain": "market_id + commodity_id + date + unit + pricetype + currency + priceflag",
+  "jumlah": {
+    "baris_subset": 31181,
+    "provinsi": 34,
+    "pasar": 213,
+    "baris_agregat": 5114
+  },
+  "periode": {
+    "bulan_pertama": "2020-01",
+    "bulan_terakhir": "2024-05",
+    "jumlah_bulan": 53
+  },
+  "metode": [
+    "rata_rata = rata-rata tak berbobot dari harga pasar yang memiliki data pada bulan itu; bukan harga representatif provinsi atau nasional.",
+    "n_pasar = jumlah pasar yang memiliki data pada bulan itu; n_pasar_panel = jumlah pasar provinsi yang pernah melapor komoditas itu dalam snapshot; cakupan = n_pasar / n_pasar_panel.",
+    "Perbandingan perubahan antarbulan harus memakai pasar yang sama pada kedua bulan; gunakan harga-pasar.json (khusus server), bukan selisih dua rata_rata.",
+    "Tanggal bulan pada sumber (tanggal 15) adalah penanda seri bulanan, bukan tanggal survei.",
+    "Satuan KG mengikuti sumber, termasuk untuk minyak nabati.",
+    "Bulan terakhir berbeda antarseri (banyak seri berhenti Januari 2024) dan sebagian seri memiliki bulan kosong; lihat referensi.json > seri. Bulan kosong tidak diisi."
+  ],
+  "batas": "Data historis sesuai periode snapshot; bukan harga toko atau harga hari ini.",
+  "berkas": {
+    "agregat-bulanan.json": "Agregat per komoditas, provinsi, dan bulan. Boleh dikirim ke browser lewat API.",
+    "harga-pasar.json": "Harga per pasar per bulan. Khusus server untuk perbandingan pasar yang sama; jangan dikirim utuh ke browser.",
+    "pasar.json": "Daftar pasar yang dipakai snapshot.",
+    "referensi.json": "Daftar id dan label komoditas serta provinsi."
+  }
+}

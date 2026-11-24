@@ -1,0 +1,1088 @@
+{
+  "komoditas": [
+    {
+      "id": "beras-medium",
+      "label": "Beras (mutu medium)"
+    },
+    {
+      "id": "gula-lokal",
+      "label": "Gula (lokal)"
+    },
+    {
+      "id": "minyak-nabati",
+      "label": "Minyak nabati"
+    }
+  ],
+  "provinsi": [
+    {
+      "id": "aceh",
+      "label": "ACEH"
+    },
+    {
+      "id": "bali",
+      "label": "BALI"
+    },
+    {
+      "id": "banten",
+      "label": "BANTEN"
+    },
+    {
+      "id": "bengkulu",
+      "label": "BENGKULU"
+    },
+    {
+      "id": "daerah-istimewa-yogyakarta",
+      "label": "DAERAH ISTIMEWA YOGYAKARTA"
+    },
+    {
+      "id": "dki-jakarta",
+      "label": "DKI JAKARTA"
+    },
+    {
+      "id": "gorontalo",
+      "label": "GORONTALO"
+    },
+    {
+      "id": "jambi",
+      "label": "JAMBI"
+    },
+    {
+      "id": "jawa-barat",
+      "label": "JAWA BARAT"
+    },
+    {
+      "id": "jawa-tengah",
+      "label": "JAWA TENGAH"
+    },
+    {
+      "id": "jawa-timur",
+      "label": "JAWA TIMUR"
+    },
+    {
+      "id": "kalimantan-barat",
+      "label": "KALIMANTAN BARAT"
+    },
+    {
+      "id": "kalimantan-selatan",
+      "label": "KALIMANTAN SELATAN"
+    },
+    {
+      "id": "kalimantan-tengah",
+      "label": "KALIMANTAN TENGAH"
+    },
+    {
+      "id": "kalimantan-timur",
+      "label": "KALIMANTAN TIMUR"
+    },
+    {
+      "id": "kalimantan-utara",
+      "label": "KALIMANTAN UTARA"
+    },
+    {
+      "id": "kepulauan-bangka-belitung",
+      "label": "KEPULAUAN BANGKA BELITUNG"
+    },
+    {
+      "id": "kepulauan-riau",
+      "label": "KEPULAUAN RIAU"
+    },
+    {
+      "id": "lampung",
+      "label": "LAMPUNG"
+    },
+    {
+      "id": "maluku",
+      "label": "MALUKU"
+    },
+    {
+      "id": "maluku-utara",
+      "label": "MALUKU UTARA"
+    },
+    {
+      "id": "nusa-tenggara-barat",
+      "label": "NUSA TENGGARA BARAT"
+    },
+    {
+      "id": "nusa-tenggara-timur",
+      "label": "NUSA TENGGARA TIMUR"
+    },
+    {
+      "id": "papua",
+      "label": "PAPUA"
+    },
+    {
+      "id": "papua-barat",
+      "label": "PAPUA BARAT"
+    },
+    {
+      "id": "riau",
+      "label": "RIAU"
+    },
+    {
+      "id": "sulawesi-barat",
+      "label": "SULAWESI BARAT"
+    },
+    {
+      "id": "sulawesi-selatan",
+      "label": "SULAWESI SELATAN"
+    },
+    {
+      "id": "sulawesi-tengah",
+      "label": "SULAWESI TENGAH"
+    },
+    {
+      "id": "sulawesi-tenggara",
+      "label": "SULAWESI TENGGARA"
+    },
+    {
+      "id": "sulawesi-utara",
+      "label": "SULAWESI UTARA"
+    },
+    {
+      "id": "sumatera-barat",
+      "label": "SUMATERA BARAT"
+    },
+    {
+      "id": "sumatera-selatan",
+      "label": "SUMATERA SELATAN"
+    },
+    {
+      "id": "sumatera-utara",
+      "label": "SUMATERA UTARA"
+    }
+  ],
+  "bulan": [
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12",
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05"
+  ],
+  "seri": [
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "aceh",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 51,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "bali",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "banten",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "bengkulu",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "daerah-istimewa-yogyakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "dki-jakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "gorontalo",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "jambi",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "jawa-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "jawa-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "jawa-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kalimantan-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kalimantan-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kalimantan-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kalimantan-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kalimantan-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kepulauan-bangka-belitung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-02",
+      "jumlah_bulan": 50,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "kepulauan-riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "lampung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "maluku",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "maluku-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "nusa-tenggara-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "nusa-tenggara-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "papua",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "papua-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-04",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sulawesi-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sulawesi-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 51,
+      "bulan_kosong": [
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sulawesi-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sulawesi-tenggara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sulawesi-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sumatera-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sumatera-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "beras-medium",
+      "provinsi": "sumatera-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "aceh",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 51,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "bali",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "banten",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "bengkulu",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "daerah-istimewa-yogyakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "dki-jakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "gorontalo",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "jambi",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "jawa-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "jawa-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "jawa-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kalimantan-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kalimantan-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kalimantan-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kalimantan-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kalimantan-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kepulauan-bangka-belitung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-02",
+      "jumlah_bulan": 50,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "kepulauan-riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "lampung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "maluku",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "maluku-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "nusa-tenggara-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "nusa-tenggara-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "papua",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "papua-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-04",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sulawesi-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sulawesi-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 51,
+      "bulan_kosong": [
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sulawesi-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sulawesi-tenggara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sulawesi-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sumatera-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sumatera-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "gula-lokal",
+      "provinsi": "sumatera-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "aceh",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 51,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "bali",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "banten",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "bengkulu",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "daerah-istimewa-yogyakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "dki-jakarta",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "gorontalo",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "jambi",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "jawa-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "jawa-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "jawa-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kalimantan-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kalimantan-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kalimantan-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kalimantan-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kalimantan-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kepulauan-bangka-belitung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-02",
+      "jumlah_bulan": 50,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "kepulauan-riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "lampung",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "maluku",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "maluku-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-03",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "nusa-tenggara-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-02"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "nusa-tenggara-timur",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "papua",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "papua-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-04",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "riau",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sulawesi-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sulawesi-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 50,
+      "bulan_kosong": [
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sulawesi-tengah",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sulawesi-tenggara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 52,
+      "bulan_kosong": [
+        "2024-04"
+      ]
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sulawesi-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sumatera-barat",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sumatera-selatan",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-01",
+      "jumlah_bulan": 49,
+      "bulan_kosong": []
+    },
+    {
+      "komoditas": "minyak-nabati",
+      "provinsi": "sumatera-utara",
+      "bulan_pertama": "2020-01",
+      "bulan_terakhir": "2024-05",
+      "jumlah_bulan": 53,
+      "bulan_kosong": []
+    }
+  ]
+}
