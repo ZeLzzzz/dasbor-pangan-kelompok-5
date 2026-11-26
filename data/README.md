@@ -16,6 +16,6 @@ Berkas di `snapshot/` dibekukan dan disiapkan mentor dari CSV WFP/HDX yang diund
 - `rata_rata` adalah rata-rata tak berbobot pasar yang punya data. Ini **bukan** harga provinsi.
 - **Bulan terakhir berbeda antarseri.** Banyak seri berhenti di 2024-01. Ambil dari `referensi.json > seri[].bulan_terakhir`, jangan dianggap Mei 2024.
 - Sebagian seri punya bulan kosong (`seri[].bulan_kosong`). Bulan kosong bukan harga nol.
-- Persen perubahan antarbulan dihitung dari `harga-pasar.json` dengan **pasar yang sama** di kedua bulan, bukan dari selisih dua `rata_rata`.
+- Persen perubahan antarbulan memakai **pasar yang sama** di kedua bulan, bukan selisih dua `rata_rata`. Rata-rata pasar sama sudah disiapkan `lib/harga.js` (`pasar_sama`); jangan membaca `harga-pasar.json` langsung.
 
 Atribusi wajib tampil di aplikasi: Data: World Food Programme (WFP), via Humanitarian Data Exchange (HDX). Lisensi CC BY-IGO.
