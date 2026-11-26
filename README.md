@@ -86,6 +86,7 @@ npm test
 - Pesan commit memakai format Conventional Commits dalam bahasa Inggris: `feat: add province form`, `fix: handle empty price`, `docs: add member list`.
 - Commit kecil dan sering. Setiap anggota harus punya commit di riwayat repo.
 - File yang ditandai "Jangan diubah" di atas berasal dari mentor. Kalau ada masalah, laporkan ke mentor.
+- Komentar `TODO` di `public/`, `server/app.js`, dan `test/` adalah petunjuk dari mentor: isinya *apa* yang perlu dibuat, bukan kodenya. Hapus TODO setelah bagiannya selesai, supaya kode akhir bersih saat dinilai.
 
 ## Jadwal koordinasi
 
